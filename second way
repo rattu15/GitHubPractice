@@ -1,1 +1,9 @@
-This is for second method of fetch
+Let me just recap the first method tho
+First , when you are done with the pull request, that is when you push the pull request to origin, and it gets merged.
+Your own account's forked repo will be out of date because other person cannot make changes to your account.
+now, on your terminal, to fetch the main branch of the project that you pulled do this:
+1. Checkout to your main branch
+2. after that run this: "git reset --hard upstream/main"
+3. now push to origin, your main branch.
+TADA!
+
